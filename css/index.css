@@ -1,0 +1,503 @@
+
+
+/* 공통 */
+
+.inner {
+    
+    padding: 144px 20px 160px 20px;
+   
+    margin: 0 auto;
+}
+
+.btn_common {
+    margin-top: 30px;
+    width: 250px;
+    background: #000;
+    line-height: 48px;
+    border-radius: 24px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.chat {
+    position: fixed;
+    z-index: 1;
+    mix-blend-mode: difference;
+    background: #fff;
+    padding: 16px;
+    box-sizing: border-box;
+    width: 109px;
+    height: 109px;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 10px;
+
+}
+
+.chat a i {
+
+    display: block;
+    background: url('../img/chat.svg') no-repeat center;
+    background-size: cover;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+
+  
+  .circle{
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 80%;
+    backface-visibility: hidden;
+    z-index: 10;
+    pointer-events: none;
+    mix-blend-mode: difference;
+    
+  }
+  .circle.on{
+    position: fixed;
+    width: 300px;
+    height: 300px;    
+    border-radius: 80%;
+    backface-visibility: hidden;
+    z-index: 10;
+    pointer-events: none;
+    mix-blend-mode: normal;
+    
+  }
+  .circle.on img{
+ display: block;
+ width: 100%;
+ height: 100%;
+ border-radius: 80%;
+    
+  }
+
+/* 메인이미지 */
+.sc_visual {
+    position: relative;
+    background-color: #ffffff;
+    background-image: radial-gradient(#00000029 0.8px, #ffffff 0.8px);
+    background-size: 26px 26px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 150px;
+    
+}
+
+
+
+
+.sc_visual .text_wrap {
+    display: inline-block;
+    text-align: left;
+    font-weight: 300;
+
+}
+
+.sc_visual .text_wrap p {
+    font-size: 26px;
+    margin-bottom: 26px;
+}
+
+
+.sc_visual .text_wrap .line_1 p {
+    font-size: 96px;
+    font-weight: 600;
+}
+
+.sc_visual .text_wrap .create{
+    display: inline-block;
+    cursor: url(../img/clown.webp),auto;
+}
+.sc_visual .text_wrap .line_1 span {
+    margin-left: 20px;
+}
+
+.sc_visual .text_wrap .line_2 p {
+    font-size: 96px;
+    font-weight: 600;
+}
+
+
+
+.sc_visual .btn_intro a {
+    display: block;
+    height: 100%;
+}
+
+.sc_visual .scroll {
+    position: absolute;
+    left: 40px;
+    bottom: 50px;
+    padding: 30px;
+    writing-mode: vertical-rl;
+}
+
+
+/* 경력 */
+.sc_career {
+    overflow: hidden;
+    background: #090909;
+    color: white;
+    height: 100%;
+    padding: 144px 0 160px 0;
+}
+
+.sc_career .title {}
+
+.sc_career .title h2 {
+    font-size: 80px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.sc_career .title h2 i {
+    margin-left: 10px;
+    display: inline-block;
+    width: 96px;
+    height: 96px;
+    background: url('../img/imoji.png') no-repeat center;
+    background-size: cover;
+    vertical-align: text-bottom
+}
+
+.text_area {}
+
+.sc_career .text_area>div:nth-child(1) {
+    margin-top: 50px;
+    display: flex;
+    animation: example1 25s linear infinite;
+}
+
+.sc_career .text_area>div:nth-child(2) {
+    display: flex;
+    animation: example1 25s linear infinite;
+    
+}
+
+.sc_career .text_area>div:nth-child(3) {
+    margin-top: 50px;
+    display: flex;
+    animation: example1 25s linear infinite;
+    
+}
+
+@-webkit-keyframes example1 {
+    0% {
+        -webkit-transform: translateX(-30%);
+    }
+
+    100% {
+        -webkit-transform: translateX(-100%);
+    }
+}
+
+.react {
+    font-size: 60px;
+    padding: 0 120px;
+    white-space: pre;
+    color: #fff;
+}
+
+
+
+.js {
+    font-size: 60px;
+    padding: 30px 50px;
+    color: transparent;
+    font-weight: 500;
+    text-shadow: none;
+    white-space: pre;
+    -webkit-text-stroke: 1px rgb(255 255 255);
+}
+
+
+
+
+.html {
+    font-size: 100px;
+    padding: 0 40px;
+    color: transparent;
+    font-weight: 500;
+    text-shadow: none;
+    white-space: pre;
+    -webkit-text-stroke: 1px rgb(255 255 255);
+}
+
+
+.css {
+    font-size: 100px;
+    padding: 50px 30px;
+
+}
+
+.scss {
+    font-size: 80px;
+    padding: 0 120px;
+    white-space: pre;
+    color: #fff;
+}
+
+
+
+.user_ex {
+    font-size: 50px;
+    padding: 10px 50px;
+    color: transparent;
+    font-weight: 500;
+    text-shadow: none;
+    white-space: pre;
+    -webkit-text-stroke: 1px rgb(255 255 255);
+}
+
+
+.jquery {
+    font-size: 80px;
+    padding: 0 120px;
+    white-space: pre;
+    color: #fff;
+}
+
+/* 소개 */
+.sc_intro {
+    display: flex;
+    background: #fff;
+    justify-content: space-between;
+
+}
+
+.sc_intro .text_area {
+    width: calc(50% - 30px);
+    margin-right: 60px;
+    box-sizing: border-box;
+}
+
+.sc_intro .text_area h2 {
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.sc_intro .text_area p {
+    line-height: 1;
+    font-size: 30px;
+    margin: 32px 0; 
+    font-weight: 500;
+}
+.sc_intro .text_area span {
+    display: block;
+    line-height: 1;
+    font-size: 20px;
+    margin: 32px 0; 
+    font-weight: 400;
+}
+
+.sc_intro .img_area {}
+
+.sc_intro .img_area .top {
+    flex-wrap: wrap;
+    display: flex;
+   margin-bottom: 20px;
+
+}
+
+.sc_intro .bottom .cont_wrap video {
+  
+    width: 100%;
+}
+.sc_intro .img_area .top .cont_wrap {
+    box-shadow: 20px 20px 60px 0px #d9d9d9a6, -20px -20px 20px #ffffff;
+    border-radius: 13px;width: 100%;
+   
+
+}
+
+.sc_intro .img_area .bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sc_intro .bottom>div {
+  width: calc(50% - 10px);
+  
+}
+
+.sc_intro .bottom .cont_wrap.right {
+    margin-right: 0;
+}
+
+.sc_intro .bottom .cont_wrap {}
+
+.sc_intro .bottom .cont_wrap video {
+    display: block;
+    width: 100%;
+    height: 100%;
+    box-shadow: 20px 20px 60px 0px #d9d9d9a6, -20px -20px 20px #ffffff;
+    border-radius: 13px;
+}
+
+.sc_intro .bottom .cont_wrap img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    box-shadow: 20px 20px 60px 0px #d9d9d9a6, -20px -20px 20px #ffffff;
+    border-radius: 13px;
+}
+
+
+/* 작업 포트폴리오 */
+.sc_portfolio {
+    width: 100%;
+    overflow: hidden;
+    background: #090909;
+    padding: 144px 20px 160px 20px;
+
+}
+.sc_portfolio .contents{margin-bottom: 150px;}
+.sc_portfolio .text_wrap {
+    color: #fff;
+    text-align: center;
+}
+
+.sc_portfolio .text_wrap h2 {
+    font-size: 80px;
+    font-weight: 600;
+  
+
+}
+
+.sc_portfolio .text_wrap p {
+    line-height: 1.6;
+    font-size: 19.2px;
+    margin-top: 32px;
+
+}
+
+.sc_portfolio .img_wrap {
+    perspective: 600px;
+    text-align: center;
+    
+}
+
+.sc_portfolio .img_wrap img {
+    padding: 0 20%;
+    display: inline-block;
+    margin-top: 48px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 13px;
+    transform: rotateX(33deg);
+}
+
+
+/* 연락처 */
+.sc_contact {
+    background-color: #fff;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.sc_contact .left {
+    width: 30%;
+}
+
+.sc_contact .left .contact {
+    margin-bottom: 100px;
+}
+
+.sc_contact .left .contact p {
+    color: #000;
+    font-size: 16px;
+    letter-spacing: 5px;
+    margin-bottom: 16px;
+}
+
+.sc_contact .left .contact a {
+    display: inline-block;
+    padding: 0 0 5px 0;
+    color: #d8d8d8;
+    font-size: 24px;
+    line-height: 30px;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.sc_contact .sns {}
+
+.sc_contact .sns p {
+    color: #000;
+    font-size: 16px;
+    letter-spacing: 5px;
+    margin-bottom: 16px;
+}
+
+.sc_contact .sns_icon {
+    display: flex;
+}
+
+.sc_contact .sns_icon a {
+    display: block;
+    width: 30.25px;
+    height: 30.25px;
+    margin-right: 20px;
+}
+
+.sc_contact .sns_icon a i {
+    display: inline-block;
+    padding: 3.2px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    
+    opacity: .2;
+}
+
+.sc_contact .sns_icon a:first-child i {
+    background: url('../img/email.png') no-repeat center;
+    background-size: cover;
+}
+
+.sc_contact .sns_icon a:nth-child(2) i {
+    background: url('../img/tistory.svg') no-repeat center;
+}
+
+.sc_contact .sns_icon a:nth-child(3) i {
+    background: url('../img/github.png') no-repeat center;
+    background-size: cover;
+}
+
+.sc_contact .right {
+    width: 70%;
+}
+
+.sc_contact .right .title {}
+
+.sc_contact .right p {
+    color: #000;
+    font-size: 16px;
+    letter-spacing: 5px;
+    margin-bottom: 8px;
+}
+
+.sc_contact .right h2 {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.sc_contact .right .text_wrap{
+    margin-top: 50px;
+    padding: 20px;
+    box-shadow: 20px 20px 60px 0px #d9d9d9a6, -20px -20px 20px #ffffff;
+    border-radius: 13px;width: 100%;
+}
+.sc_contact .right .text_wrap p{
+    font-size: 20px;
+    letter-spacing: -1px;
+    line-height: 1.5;
+}
