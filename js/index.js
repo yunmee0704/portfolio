@@ -126,7 +126,7 @@ $('.constantly').mouseover(function(){
         el = $('.sc_portfolio .img_area img')
         gsap.to(el,{
             scrollTrigger:{
-                trigger:item, //시발점
+                trigger:item, //시작점
                 start:"top 40%", //[element 시작점, window시작점]
                 end:"bottom bottom",//
                 markers:true,//표시자
