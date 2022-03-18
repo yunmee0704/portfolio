@@ -129,7 +129,7 @@ $('.constantly').mouseover(function(){
                 trigger:item, //시작점
                 start:"top 40%", //[element 시작점, window시작점]
                 end:"bottom bottom",//
-                markers:true,//표시자
+                // markers:true,//표시자
                 scrub:3,
             },
             scale:1.2,
