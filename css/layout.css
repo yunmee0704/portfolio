@@ -69,6 +69,7 @@
 }
 
 body{
+   
     font-family: 'Gilroy','SFPro',sans-serif;
     /* font-family: 'proxima',sans-serif; */
     background: #fff;
@@ -83,18 +84,17 @@ header{padding: 0 20px; position: fixed; z-index: 1; width: 100%;mix-blend-mode:
 header.block{mix-blend-mode: normal;}
 header .logo{
     z-index: 10;
-    position: absolute; top: 30.8px; left:40px; 
-    width: 96px;
+    position: absolute; top: 76px; left:40px; 
+    width: 150px;
     height: 96px;
+
   
     
     
 }
 header .logo a{
-    display: block; height: 100%;
-    background: url('https://qclay.design/images/logo.svg') no-repeat center;
-    background-size: cover;
-  
+    display: inline-block; width: 100%;
+    color:#fff; font-size: 20px; margin: auto;;
     
    
    }

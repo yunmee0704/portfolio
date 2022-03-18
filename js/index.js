@@ -122,17 +122,17 @@ $('.constantly').mouseover(function(){
     })
 
 //포트폴리오 영역
-    $('.sc_portfolio').each(function(index,item){
-        el = $('.sc_portfolio img')
+    $('.sc_portfolio .contents').each(function(index,item){
+        el = $('.sc_portfolio .img_area img')
         gsap.to(el,{
             scrollTrigger:{
                 trigger:item, //시발점
-                start:"top 10%", //[element 시작점, window시작점]
+                start:"top 40%", //[element 시작점, window시작점]
                 end:"bottom bottom",//
                 markers:true,//표시자
-                scrub:1,
+                scrub:3,
             },
-            rotateX:0,
+            scale:1.2,
         })
     })
    $('.gnb a').click(function(e){
