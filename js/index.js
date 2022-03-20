@@ -44,7 +44,7 @@ $(function(){
 //hover 효과
     //끊임없이
 $('.constantly').mouseover(function(){
-    $('.circle').html('<img src="../constantly.gif" alt="">')
+    $('.circle').html('<img src="https://github.com/yunmee0704/portfolio/blob/master/constantly.gif" alt="">')
     $('.circle').addClass('on')
   })
   $('.constantly').mouseleave(function(){
