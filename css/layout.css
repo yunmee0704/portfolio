@@ -73,7 +73,8 @@ body{
     font-family: 'Gilroy','SFPro',sans-serif;
     /* font-family: 'proxima',sans-serif; */
     background: #fff;
-    min-width:1050px;
+    min-width:1200px;
+    
 
 }
 body.hidden{

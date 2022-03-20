@@ -152,6 +152,7 @@
     height: 100%;
     padding-top: 144px;
     box-sizing: border-box;
+    min-width: 1400px;
 }
 
 .sc_career .title {}
@@ -195,6 +196,7 @@
     float: left;
     height: 100%;
     width: 10%;
+    text-align: center;
 
   }
 
@@ -253,7 +255,7 @@
 
 
 .user_ex {
-    font-size: 50px;
+    font-size: 40px;
  
     color: transparent;
     font-weight: 500;
@@ -275,12 +277,12 @@
     display: flex;
     background: #fff;
     justify-content: space-between;
-    padding: 144px 100px 160px 100px;
+   
 
 }
 
 .sc_intro .text_area {
-    width: calc(50% - 30px);
+    width: 45%;
     margin-right: 60px;
     box-sizing: border-box;
 }
@@ -304,7 +306,7 @@
     margin: 32px 0;
     font-weight: 400;
 }
-
+.sc_intro .img_area{width: 45%;}
 .sc_intro .img_area h2 {
     font-size: 90px;
     margin-bottom: 50px;
@@ -332,12 +334,13 @@
 }
 
 .sc_intro .img_area .bottom {
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 
 .sc_intro .bottom>div {
-    width: calc(50% - 10px);
+    width: 47%;
 
 }
 
@@ -384,12 +387,14 @@
 .sc_portfolio .contents {
     margin: 150px 0 300px;
     display: flex;
+    justify-content:space-around;
 }
-.sc_portfolio .img_area{width: 50%;}
-.sc_portfolio .img_wrap{width: 100%; height: 500px; overflow: hidden; border-radius: 13px;}
+.sc_portfolio .img_area{width:45%;}
+.sc_portfolio .img_area.right{width:45%; }
+.sc_portfolio .img_wrap{width: 100%; height: 600px; overflow: hidden; border-radius: 13px;}
 .sc_portfolio img {
-    width: 100%;
-    height: 500px;
+   width: 100%;
+    height: 100%;
    display: block;
     object-fit: cover;
    
@@ -400,7 +405,8 @@
 
 
 
-.sc_portfolio .text_area{width: 50%; position: relative;   color: #fff;}
+.sc_portfolio .text_area{width:45%; position: relative;   color: #fff;}
+.sc_portfolio .text_area.right{width:45%;}
 
 
 
@@ -425,7 +431,7 @@
 
     
 
-.sc_portfolio .btn{position: absolute; left: 50%; bottom: 20px; transform: translateX(-50%);}
+.sc_portfolio .btn{position: absolute; display: flex; left: 50%; bottom: 20px; transform: translateX(-50%);}
 .sc_portfolio button{
     width: 150px;
     height: 50px;
