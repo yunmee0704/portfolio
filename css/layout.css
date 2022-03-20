@@ -109,10 +109,11 @@ box-sizing: border-box;z-index: 10;}
 .side_menu a span:last-child{width: 18px; height: 2px;}
 /* 사이드메뉴 */
 .menu_page{
+    
     display: block;
     position: absolute;
     top: 0;
-    z-index: 999 !important;
+    z-index: 999 ;
     right: -100%;
     background: #fff;   
     height: 100vh;
