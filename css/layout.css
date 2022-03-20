@@ -110,7 +110,7 @@ box-sizing: border-box;z-index: 10;}
 /* 사이드메뉴 */
 .menu_page{
     
-    display: block;
+    display: none;
     position: absolute;
     top: 0;
     z-index: 10 ;
@@ -124,6 +124,7 @@ box-sizing: border-box;z-index: 10;}
 }
 
 .menu_page.on{
+display: block;
   right: 0;
   opacity: 1;
   transition:1.5s;
