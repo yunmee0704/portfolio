@@ -44,7 +44,7 @@ $(function(){
 //hover 효과
     //끊임없이
 $('.constantly').mouseover(function(){
-    $('.circle').html('<img src="https://github.com/yunmee0704/portfolio/blob/master/constantly.gif" alt="">')
+    $('.circle').html('<img src="../img/constantly.gif" alt="">')
     $('.circle').addClass('on')
   })
   $('.constantly').mouseleave(function(){
@@ -53,7 +53,7 @@ $('.constantly').mouseover(function(){
   })
   //배우고
     $('.learn').mouseover(function(){
-      $('.circle').html('<img src="../study.gif" alt="">')
+      $('.circle').html('<img src="../img/study.gif" alt="">')
       $('.circle').addClass('on')
     })
     $('.learn').mouseleave(function(){
@@ -62,7 +62,7 @@ $('.constantly').mouseover(function(){
     })
     //발전하는
     $('.levelup').mouseover(function(){
-      $('.circle').html('<img src="../levelup.gif" alt="">')
+      $('.circle').html('<img src="../img/levelup.gif" alt="">')
       $('.circle').addClass('on')
     })
     $('.levelup').mouseleave(function(){
@@ -72,7 +72,7 @@ $('.constantly').mouseover(function(){
 
     //FE개발자
     $('.programmer').mouseover(function(){
-      $('.circle').html('<img src="../programmer.gif" alt="">')
+      $('.circle').html('<img src="../img/programmer.gif" alt="">')
       $('.circle').addClass('on')
     })
     $('.programmer').mouseleave(function(){
@@ -81,7 +81,7 @@ $('.constantly').mouseover(function(){
     })
     //100%
     $('.100').mouseover(function(){
-      $('.circle').html('<img src="../100.png" alt="">')
+      $('.circle').html('<img src="../img/100.png" alt="">')
       $('.circle').addClass('on')
     })
     $('.html').mouseleave(function(){
@@ -93,7 +93,7 @@ $('.constantly').mouseover(function(){
 
  //80%
  $('.80').mouseover(function(){
-    $('.circle').html('<img src="../80.png" alt="">')
+    $('.circle').html('<img src="../img/80.png" alt="">')
     $('.circle').addClass('on')
   })
   $('.80').mouseleave(function(){
@@ -103,7 +103,7 @@ $('.constantly').mouseover(function(){
 
 //60%
  $('.60').mouseover(function(){
-    $('.circle').html('<img src="../60.png" alt="">')
+    $('.circle').html('<img src="../img/60.png" alt="">')
     $('.circle').addClass('on')
   })
   $('.60').mouseleave(function(){
